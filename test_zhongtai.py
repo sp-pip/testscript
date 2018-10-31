@@ -22,8 +22,8 @@ class TestClass():
         cls.driver.find_element_by_xpath("//android.widget.RadioButton[contains(@index,'3')]").click()
         time.sleep(3)
         cls.driver.find_element_by_id("com.mszq.sjqqb:id/et_user").clear()
-        cls.driver.find_element_by_id("com.mszq.sjqqb:id/et_user").send_keys(300130000461)
-        cls.driver.find_element_by_id("com.mszq.sjqqb:id/et_pwd").send_keys(123123)
+        cls.driver.find_element_by_id("com.mszq.sjqqb:id/et_user").send_keys(3001300)
+        cls.driver.find_element_by_id("com.mszq.sjqqb:id/et_pwd").send_keys()
 
     @classmethod
     def setup_class(cls):
